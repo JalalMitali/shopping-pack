@@ -22,9 +22,13 @@ module.exports = {
         amber: colors.amber,
       },
       minHeight: {
-        appBar: '6vh',
+        searchBox: '5vh',
+        searchBoxMobile: '5vh',
+        appBar: '8vh',
       },
       minWidth: {
+        searchBox: '50%',
+        searchBoxMobile: '100%',
         appBar: '100%',
       },
       screens: {
