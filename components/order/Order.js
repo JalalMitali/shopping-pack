@@ -1,7 +1,7 @@
 import moment from "moment";
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import Logo from "../../assets/icon/logo-color.svg"
+import Logo from "../../../assets/icon/logo-color.svg"
 function Order({}) {
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -1,5 +1,5 @@
 import React from "react";
-import NotFound from "../../assets/img/no-result.svg";
+import NotFound from "../../../assets/img/no-result.svg";
 const NotFoundProduct = () => {
   return (
     <div className="text-center align-middle mx-auto p-5 my-5">

@@ -1,17 +1,18 @@
-import React, { useEffect } from "react";
-import aboutUs from "../assets/img/about-us.png";
-import aboutVegetables from "../assets/img/about-vegetables.png";
-import men1 from "../assets/img/men-1.png";
-import men2 from "../assets/img/men-2.png";
-import men3 from "../assets/img/men-3.png";
-import women1 from "../assets/img/women-1.png";
-import women2 from "../assets/img/women-2.png";
-import women3 from "../assets/img/women-3.png";
+import React, { FC, useEffect } from "react"
+import aboutUs from "../../assets/img/about-us.png"
+import Image from "next/image"
+import aboutVegetables from "../../assets/img/about-vegetables.png"
+import men1 from "../../assets/img/men-1.png"
+import men2 from "../../assets/img/men-2.png"
+import men3 from "../../assets/img/men-3.png"
+import women1 from "../../assets/img/women-1.png"
+import women2 from "../../assets/img/women-2.png"
+import women3 from "../../assets/img/women-3.png"
 
-const About = () => {
+const About: FC = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="bg-gray-50">
@@ -90,7 +91,7 @@ const About = () => {
                   maxWidth: "100%",
                 }}
               >
-                <img
+                <Image
                   style={{
                     display: "block",
                     maxWidth: "100%",
@@ -164,7 +165,7 @@ const About = () => {
                   background: "none",
                 }}
               >
-                <img
+                <Image
                   style={{
                     display: "block",
                     maxWidth: "100%",
@@ -230,7 +231,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -250,7 +251,7 @@ const About = () => {
                 <div className="py-4">
                   <h5 className="text-lg font-semibold ">Niamh Shea</h5>
                   <span className="opacity-75 text-sm">
-                    Co-founder &amp; Executive
+                    Co-founder &amp Executive
                   </span>
                 </div>
               </div>
@@ -285,7 +286,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -338,7 +339,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -393,7 +394,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -448,7 +449,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -501,7 +502,7 @@ const About = () => {
                       maxWidth: "100%",
                     }}
                   >
-                    <img
+                    <Image
                       className="block rounded-lg"
                       style={{
                         display: "bolck",
@@ -528,7 +529,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

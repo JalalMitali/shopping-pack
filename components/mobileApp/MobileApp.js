@@ -1,8 +1,8 @@
 import React from "react";
-import AppDownloadLeft from "../../assets/img/app-download-img-left.png";
-import AppDownloadRight from "../../assets/img/app-download-img.png";
-import AppStore from "../../assets/img/app-store.svg";
-import PlayStore from "../../assets/img/play-store.svg";
+import AppDownloadLeft from "../../../assets/img/app-download-img-left.png";
+import AppDownloadRight from "../../../assets/img/app-download-img.png";
+import AppStore from "../../../assets/img/app-store.svg";
+import PlayStore from "../../../assets/img/play-store.svg";
 function MobileApp() {
   return (
     <div className="bg-indigo-50 py-10 lg:py-16 bg-repeat bg-center overflow-hidden">

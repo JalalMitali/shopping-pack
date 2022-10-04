@@ -1,6 +1,6 @@
-import Slider1 from "../assets/img/slider-1.png"
-import Slider2 from "../assets/img/slider-2.png"
-import Slider3 from "../assets/img/slider-3.png"
+import Slider1 from "../../assets/img/slider-1.png"
+import Slider2 from "../../assets/img/slider-2.png"
+import Slider3 from "../../assets/img/slider-3.png"
 export const SliderData = [
     {
       name: "The Best Quality Products Guaranteed!",

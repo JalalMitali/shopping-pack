@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import categoryCard1 from "../../assets/img/categoryCard1.jpg";
-import categoryCard2 from "../../assets/img/categoryCard2.jpg";
-import categoryCard3 from "../../assets/img/categoryCard3.jpg";
+import categoryCard1 from "../../../assets/img/categoryCard1.jpg";
+import categoryCard2 from "../../../assets/img/categoryCard2.jpg";
+import categoryCard3 from "../../../assets/img/categoryCard3.jpg";
 import { searchAction } from "../../store/reducers/searchSlice";
 const CategoriesData = [
   {

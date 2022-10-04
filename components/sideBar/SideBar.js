@@ -4,7 +4,7 @@ import "rsuite/dist/rsuite.min.css";
 import { useSelector, useDispatch } from "react-redux";
 import { sidebarAction } from "../../store/reducers/sidebarSlice";
 import { searchAction } from "../../store/reducers/searchSlice";
-import logo from "../../assets/icon/logo-light.svg";
+import logo from "../../../assets/icon/logo-light.svg";
 import { ResourcesData } from "../../fakeData/ResourcesData";
 import { CategoriesData } from "../../fakeData/CategoriesData";
 import { Disclosure } from "@headlessui/react";

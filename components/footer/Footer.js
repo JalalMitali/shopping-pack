@@ -1,8 +1,8 @@
 import React from "react";
 import { FooterData } from "../../fakeData/Footer";
 import { Link } from "react-router-dom";
-import LogoColor from "../../assets/img/logo-color.svg";
-import PaymentImg from "../../assets/img/payment-logo.png";
+import LogoColor from "../../../assets/img/logo-color.svg";
+import PaymentImg from "../../../assets/img/payment-logo.png";
 function Footer() {
   return (
     <>

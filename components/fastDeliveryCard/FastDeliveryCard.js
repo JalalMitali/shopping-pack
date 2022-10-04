@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DeliveBoy from "../../assets/img/delivery-boy.png";
+import DeliveBoy from "../../../assets/img/delivery-boy.png";
 function FastDeliveryCard() {
   return (
     <div className="block mx-auto max-w-screen-2xl ">

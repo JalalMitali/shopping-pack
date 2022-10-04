@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import contactUs from "../assets/img/contact-us.png";
+import contactUs from "../../assets/img/contact-us.png";
 
 function Contact() {
   useEffect(() => {

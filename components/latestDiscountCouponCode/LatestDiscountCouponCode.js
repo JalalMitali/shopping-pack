@@ -1,5 +1,5 @@
 import React from "react";
-import ins1 from "../../assets/img/ins3.png";
+import ins1 from "../../../assets/img/ins3.png";
 import { useCountDown } from "../../hooks/useCountDown";
 import DateTimeDisplay from "../dateTimeDisplay/DateTimeDisplay";
 
